@@ -3,42 +3,48 @@
         "name":"vela XL",
         "price":980,
         "stock": 20,
-        "img":"./productos/132029553_1468591693346778_6065539647965467962_n.jpg",
-        "category":"velas"
+        "img":"/productos/132029553_1468591693346778_6065539647965467962_n.jpg",
+        "category":"velas",
+        "id":1
     },
     {
         "name":"Home spray",
         "price":520,
         "stock": 20,
-        "img":"./productos/171304471_150154580281538_2224622652378887648_n.jpg",
-        "category":"homeSpray"
+        "img":"/productos/171304471_150154580281538_2224622652378887648_n.jpg",
+        "category":"homeSpray",
+        "id":2
     },
     {
         "name":"Difusor",
         "price":700,
         "stock": 20,
-        "img":"./productos/174501191_899156514270918_3350321429744964967_n.jpg",
-        "category":"difusores"
+        "img":"/productos/174501191_899156514270918_3350321429744964967_n.jpg",
+        "category":"difusores",
+        "id":3
     },
     {
         "name":"Vela XS",
         "price":450,
         "stock": 20,
-        "img":"./productos/177336935_462368888312171_5347379740189215708_n.jpg",
-        "category":"velas"
+        "img":"/productos/177336935_462368888312171_5347379740189215708_n.jpg",
+        "category":"velas",
+        "id":4
     },
     {
         "name":"Vela copa",
         "price":1200,
         "stock": 20,
-        "img":"./productos/213617217_230471315583758_572619758661447712_n.jpg",
-        "category":"velas"
+        "img":"/productos/213617217_230471315583758_572619758661447712_n.jpg",
+        "category":"velas",
+        "id":5
     },
     {
         "name":"Vela Pink Flower",
         "price":980,
         "stock": 20,
-        "img":"./productos/272250302_483083416506176_4323282940849249675_n.jpg",
-        "category":"velas"
+        "img":"/productos/272250302_483083416506176_4323282940849249675_n.jpg",
+        "category":"velas",
+        "id":6
     }]
 }

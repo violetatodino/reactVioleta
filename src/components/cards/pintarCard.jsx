@@ -1,18 +1,18 @@
-
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PintarCard = ({producto}) => {
   return (
 
-    <div className="">
+    <div className="p-5">
       <div className="">
         <img className="" src={producto.img} alt={producto.name}></img>
       </div>
       <div className="">
-        <a href="#" className="">
+        <Link to={`/detail/${producto.id}`} >
           <span className="">{producto.name}</span>
-        </a>
-        <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Link>
+        <p className=""></p>
       </div>
    
     </div>  
