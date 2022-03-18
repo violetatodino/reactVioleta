@@ -3,9 +3,10 @@ import { useParams } from 'react-router-dom';
 import DetailCard from '../cards/DetailCard';
 
 const ItemDetailContainer = () => {
-
+    // Hooks
     const [producto, setProducto] = useState(null);
     const { id } = useParams();
+    const [cant, setCant] =useState (1);
 
     useEffect(() => {
         setTimeout(() => {
@@ -14,6 +15,8 @@ const ItemDetailContainer = () => {
         
 
     }, [])
+
+    
 
     const getProductById = async ( id ) => {
         try {

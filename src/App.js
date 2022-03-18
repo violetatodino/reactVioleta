@@ -5,11 +5,13 @@ import Home from './components/pages/Home';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemsContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemsContainer/ItemDetailContainer';
+import { CartContextProvider } from './components/Context/CartContext';
 
 function App() {
   return (
     <>
     <div>
+    <CartContextProvider>
       <BrowserRouter>
       <NavBar></NavBar>
         <Routes>
@@ -19,6 +21,7 @@ function App() {
           <Route path='detail/:id' element={ <ItemDetailContainer /> } />
         </Routes>
       </BrowserRouter>
+      </CartContextProvider>
     </div>
       
       
